@@ -121,7 +121,7 @@ Then ran the queries in Python using MySQL in the **Analysis.ipynb notebook**. U
 ## How to replicate
 
 Make directory and use this structure
-
+```
 📁 Direcory
 ├── 📄 csv_to_sql_dumping.ipynb
 ├── 📄 Analysis.ipynb
@@ -134,7 +134,7 @@ Make directory and use this structure
    ├── 📄 payments.csv
    ├── 📄 products.csv
    └── 📄 sellers.csv
-
+```
 
 For both **csv_to_sql_dumping.ipynb** and **Analysis.ipynb notebook** change these MySQL settings according to your DataBase:
     - host = "localhost",
