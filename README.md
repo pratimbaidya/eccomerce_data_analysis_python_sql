@@ -123,28 +123,18 @@ Then ran the queries in Python using MySQL in the **Analysis.ipynb notebook**. U
 Make directory and use this structure
 
 📁 Direcory
-
+├── 📄 csv_to_sql_dumping.ipynb
 ├── 📄 Analysis.ipynb
-
 ├── 📄 Quentions.txt
-
 ├── 📁 csv files
+└──├── 📄 customers.csv
+   ├── 📄 geolocation.csv
+   ├── 📄 order_items.csv
+   ├── 📄 orders.csv
+   ├── 📄 payments.csv
+   ├── 📄 products.csv
+   └── 📄 sellers.csv
 
-│   ├── 📄 customers.csv
-
-│   ├── 📄 geolocation.csv
-
-│   ├── 📄 order_items.csv
-
-│   ├── 📄 orders.csv
-
-│   ├── 📄 payments.csv
-
-│   ├── 📄 products.csv
-
-│   └── 📄 sellers.csv
-
-└── 📄 csv_to_sql_dumping.ipynb
 
 For both **csv_to_sql_dumping.ipynb** and **Analysis.ipynb notebook** change these MySQL settings according to your DataBase:
     - host = "localhost",
