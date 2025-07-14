@@ -137,9 +137,9 @@ Make directory and use this structure
 ```
 
 For both **csv_to_sql_dumping.ipynb** and **Analysis.ipynb notebook** change these MySQL settings according to your DataBase:
-    - host = "localhost",
-    - username = "root",
-    - password = "your_password",
-    - database = "ecommerce"
+- host = "localhost",
+- username = "root",
+- password = "your_password",
+- database = "ecommerce"
 
 First run the **csv_to_sql_dumping.ipynb** notebook to import all the csv files into sql. It may take sometime. Then run the **Analysis.ipynb notebook** notebook to see all the results.
